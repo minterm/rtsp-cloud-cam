@@ -20,5 +20,5 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-* * * * * date > /home/minterm/ipcam/last_run_cron.txt
-* * * * * /home/minterm/ipcam/stream.sh
+* * * * * date > /home/<USER>/<PATH>/last_run_cron.txt
+* * * * * /home/<USER>/<PATH>/stream.sh
