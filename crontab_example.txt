@@ -22,3 +22,5 @@
 # m h  dom mon dow   command
 * * * * * date > /home/<USER>/<PATH>/last_run_cron.txt
 * * * * * /home/<USER>/<PATH>/stream.sh
+# If you are worried about disk space, add the following:
+0 0 * * * /home/<USER>/<PATH>/clear_cache.sh
